@@ -6,5 +6,19 @@
     --azul-claro: #E5F1FF;
     --cinza-texto: #444444;
     --cinza-claro: #ECECEC;
+    --fonte-principal: Roboto, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--azul-claro);
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: var(--fonte-principal);
+    font-size: 0.875rem; /* 14px */
+    height: 100vh;
+    overflow: auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
