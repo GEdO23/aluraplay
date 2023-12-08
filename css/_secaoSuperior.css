@@ -8,6 +8,13 @@
     top: 80px;
     right: 0;
     left: 0;
+
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow-x: scroll;
+    gap: 15px;
 }
 
 .superior__item {
