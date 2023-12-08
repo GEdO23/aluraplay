@@ -21,3 +21,12 @@
     }
 
 }
+
+@media(min-width: 1440px) {
+
+    .rodape__container {
+        padding-left: 240px;
+        height: 225px;
+    }
+
+}
