@@ -35,3 +35,11 @@
     }
 
 }
+
+@media(min-width: 1440px) {
+
+    .superior__secao__container {
+        left: 247px;
+    }
+
+}
