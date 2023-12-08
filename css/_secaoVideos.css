@@ -19,3 +19,16 @@
     font-size: 14px;
     color: #444444;
 }
+
+@media(min-width: 834px) {
+
+    .videos__container {
+        padding-left: 90px;
+        padding-right: 17px;
+    }
+
+    .videos__item:hover {
+        transform: scale(1.3);
+    }
+
+}
