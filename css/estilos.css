@@ -1,0 +1,38 @@
+@import url(./_cabecalho.css);
+@import url(./_menuLateral.css);
+@import url(./_secaoSuperior.css);
+@import url(./_secaoVideos.css);
+@import url(./_rodape.css);
+
+*,
+*::before,
+*::after {
+    --azul-escuro: #154580;
+    --azul-medio: #3970BE;
+    --azul-claro: #E5F1FF;
+    --cinza-texto: #444444;
+    --cinza-claro: #ECECEC;
+    --fonte-principal: Roboto, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--azul-claro);
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: var(--fonte-principal);
+    font-size: 0.875rem; /* 14px */
+    height: 100vh;
+    overflow: auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+@media(min-width: 834px) {
+
+    body {
+        height: 100vh;
+    }
+
+}
