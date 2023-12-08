@@ -1,6 +1,12 @@
 .menu__container {
     background-color: var(--azul-escuro);
     font-size: 14px;
+
+    /* Flexbox */
+    position: fixed;
+    bottom: 0%;
+    height: 74px;
+    width: 100%;
 }
 
 .menu__itens:hover {
