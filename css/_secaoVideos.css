@@ -3,6 +3,11 @@
     padding: 153px 20px 10px 20px;
 }
 
+.videos__item {
+    height: 303px;
+    width: 280px;
+}
+
 .videos__item:hover {
     transform: scale(1.3);
     background-color: var(--azul-claro);
