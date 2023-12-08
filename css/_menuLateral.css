@@ -9,6 +9,14 @@
     width: 100%;
 }
 
+.menu__lista {
+    display: none;
+}
+
+#menu__lista--mobile {
+    display: flex;
+}
+
 .menu__itens:hover {
     background-color: var(--azul-medio);
     transition: .5s;
