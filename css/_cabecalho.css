@@ -3,6 +3,13 @@
     height: 80px;
     width: 100%;
     padding: 0 25px;
+
+    /* Flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
 }
 
 .logo__item {
@@ -10,6 +17,10 @@
     background-repeat: no-repeat;
     padding: 15px 65px;
     cursor: pointer;
+}
+
+.cabecalho__pesquisar__item {
+    display: none;
 }
 
 .pesquisar__input {
@@ -64,4 +75,12 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 13px;
+}
+
+@media (min-width: 834px) {
+
+    .cabecalho__pesquisar__item {
+        display: block;
+    }
+
 }
