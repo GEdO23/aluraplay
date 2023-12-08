@@ -5,6 +5,12 @@
     line-height: 1.5;
     font-size: 16px;
     background-color: white;
+
+    /* Flexbox */
+    display: flex;
+    /*// flex-direction: column; */
+    /*// flex-wrap: wrap; */
+    flex-flow: column wrap;
 }
 
 .rodape__titulo {
@@ -18,6 +24,9 @@
     .rodape__container {
         height: 420px;
         padding-left: 74px;
+
+        /* Flexbox */
+        justify-content: space-between;
     }
 
 }
