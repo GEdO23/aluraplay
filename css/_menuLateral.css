@@ -144,10 +144,17 @@
         border-bottom: 1.5px solid var(--azul-medio);
         display: flex;
         padding: 20px 17px 20px 15px;
+        gap: 15px;
     }
 
     #menu__lista--mobile {
         height: auto;
+    }
+
+    .menu__itens {
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
     }
 
 }
