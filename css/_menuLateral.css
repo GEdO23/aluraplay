@@ -135,8 +135,19 @@
 
 @media(min-width: 1440px) {
 
+    .menu__container {
+        width: 239px;
+        overflow-y: scroll;
+    }
+
     .menu__lista {
         border-bottom: 1.5px solid var(--azul-medio);
+        display: flex;
+        padding: 20px 17px 20px 15px;
+    }
+
+    #menu__lista--mobile {
+        height: auto;
     }
 
 }
