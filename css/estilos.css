@@ -1,5 +1,6 @@
 @import url(./_cabecalho.css);
 @import url(./_menuLateral.css);
+@import url(./_secaoSuperior.css);
 
 *,
 *::before,
