@@ -28,3 +28,11 @@ body {
     text-align: center;
     width: 100%;
 }
+
+@media(min-width: 834px) {
+
+    body {
+        height: 100vh;
+    }
+
+}
