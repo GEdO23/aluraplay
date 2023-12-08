@@ -24,3 +24,14 @@
     background-color: var(--azul-escuro);
     transition: .5s;
 }
+
+@media(min-width: 834px) {
+
+    .superior__secao__container {
+        border-top: var(--azul-medio) 1px solid;
+        border-bottom: var(--azul-medio) 1px solid;
+        width: auto;
+        left: 82px;
+    }
+
+}
