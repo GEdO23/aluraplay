@@ -83,3 +83,19 @@
 .icone__jogos::before {
     content: url(../img/menu/jogos.png);
 }
+
+@media(min-width: 834px) {
+
+    .menu__container {
+        font-size: 16px;
+    }
+
+    .menu__lista {
+        padding-top: 15px;
+    }
+
+    .menu__lista li {
+        width: 100%;
+    }
+
+}
